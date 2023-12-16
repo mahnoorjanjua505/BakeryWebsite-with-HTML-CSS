@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Confirmed</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Poppins:ital,wght@1,600&display=swap');
+        h1{
+            font-family: 'Poppins';
+            letter-spacing: 2.5px;
+            line-height: 2.5;
+            text-align: center;
+        }
+        .delivery-heading{
+            margin-top: 5px;
+            /* background: linear-gradient(to top, #42275a, #734b6d);
+            color: white; */
+            /* transition: color;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out; */
+            animation: time 2s ease-in-out 1s infinite alternate both;
+        }
+        @keyframes time {
+            50% {
+          background: linear-gradient(to right,#bc911c, #AD7130, #AD7130,#AD7130);
+               color: black;
+            
+            }
+                0% {
+                    background: linear-gradient(to top, #42275a, #734b6d);
+            color: white;
+           
+                }
+            }
+        .gif{
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="delivery-heading">
+        <h1>Congrats! Your Order is on the Way.. </h1>
+    </div>
+    <div class="gif">
+        <img src="https://media.giphy.com/media/ICnE90q1JUH0poH7aB/giphy.gif" alt="">
+    </div>
+</body>
+</html>
