@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Poppins:ital,wght@1,600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    padding: 0%;
+    margin: 0%;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.head{
+    width: 80%;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: white;
+    padding: 10px;
+    background: linear-gradient(to right,#bc911c, #AD7130, #AD7130,#AD7130);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 15px;
+}
+.items img {
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out; 
+    /* transition: margin 0.3s ease-in; */
+
+}
+.items img:hover{
+    cursor: pointer;
+    transform: scale(0.9); 
+    background: url('/images/cakes/cake1.jpg');
+    /* margin: 5px;  */
+    
+}
